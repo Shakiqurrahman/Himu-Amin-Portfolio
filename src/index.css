@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  @apply font-poppins
+}
+
+.max-width {
+  @apply  max-w-[72rem] mx-auto px-4
+}

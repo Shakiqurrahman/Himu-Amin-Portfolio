@@ -1,8 +1,14 @@
+import Banner from "./components/Banner";
+import Header from "./components/shared/Header";
+import SocialMedias from "./components/shared/SocialMedias";
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello Guys</h1>
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <SocialMedias />
+    </>
   );
 };
 
