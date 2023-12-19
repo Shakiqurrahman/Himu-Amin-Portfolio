@@ -15,6 +15,10 @@ h1,h2,h3,h4,h5,h6 {
   @apply  max-w-[72rem] mx-auto px-4
 }
 
+.rounded-top-right {
+  border-radius: 0px 141px 0px 0px;
+}
+
 
 /* CSS For Hamburger Menu */
 .hamburger{
@@ -26,6 +30,8 @@ h1,h2,h3,h4,h5,h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .burger{
@@ -60,6 +66,17 @@ h1,h2,h3,h4,h5,h6 {
       transform: rotate(-45deg);
       top: 0px;
   }
+
+  .shape {
+    background-image: url('./assets/images/shape.png');
+    background-repeat: no-repeat;
+    width : 100%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
   
 
 
