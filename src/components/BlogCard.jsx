@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BlogCard = ({data}) => {
     return (
         <div className='mb-16 relative group'>

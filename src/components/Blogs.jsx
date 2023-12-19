@@ -6,8 +6,8 @@ const Blogs = () => {
     return (
         <div className='max-width'>
             <div className='text-center'>
-            <h6 className='uppercase tracking-widest'>Travel Blog</h6>
-            <h2 className='uppercase text-[40px] font-bold mb-8'>Travel<span className='text-[#0067f6]'> Experience</span></h2>
+            <h6 className='uppercase tracking-widest text-[14px]'>Travel Blog</h6>
+            <h2 className='uppercase sm:text-[40px] text-2xl font-bold mb-8'>Travel<span className='text-[#0067f6]'> Experience</span></h2>
             </div>
             <div className='grid sm:grid-cols-3 gap-10'>
                 {
