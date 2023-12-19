@@ -15,3 +15,51 @@ h1,h2,h3,h4,h5,h6 {
   @apply  max-w-[72rem] mx-auto px-4
 }
 
+
+/* CSS For Hamburger Menu */
+.hamburger{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #455CE9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger{
+  width: 100%;
+}
+  .burger::after, .burger::before{
+      content: "";
+      display: block;
+      height: 1px;
+      width: 50%;
+      margin: auto;
+      background-color: white;
+      position: relative;
+      transition: transform 0.3s;
+  }
+
+  .burger::after{
+      top: -5px;
+  }
+
+  .burger::before{
+      top: 5px;
+  }
+
+
+  .burgerActive::after{
+      transform: rotate(45deg);
+      top: -1px;
+  }
+
+  .burgerActive::before{
+      transform: rotate(-45deg);
+      top: 0px;
+  }
+  
+
+
