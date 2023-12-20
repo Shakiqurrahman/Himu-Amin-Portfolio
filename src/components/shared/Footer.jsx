@@ -12,21 +12,24 @@ const Footer = () => {
                 <FaLocationDot className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
                 <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Address</h3>
-                <p className="hover:text-blue-600 duration-300">New York, USA</p>
+                <p className="hover:text-blue-600 duration-300"><a
+                  href="https://maps.app.goo.gl/kWt2jtgyUTVtwBDEA"
+                  target="blank"
+                >New York, USA</a></p>
                 </span>
                 </div>
                 <div className="flex gap-4 items-center">
                 <FaPhoneVolume className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
                 <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Call Me</h3>
-                <p className="hover:text-blue-600 duration-300">+1 (212) 470-7750</p>
+                <p className="hover:text-blue-600 duration-300"><a href="tel:2124707727"> 2124707727</a></p>
                 </span>
                 </div>
                 <div className="flex gap-4 items-center">
                 <IoMdMailUnread className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
                 <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Send Me Email</h3>
-                <p className="hover:text-blue-600 duration-300">himuaminofficial@gmail.com</p>
+                <p className="hover:text-blue-600 duration-300"><a href="mailto:himuaminofficial@gmail.com">himuaminofficial@gmail.com</a></p>
                 </span>
                 </div>
             </div>
