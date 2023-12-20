@@ -7,25 +7,25 @@ const Footer = () => {
     return (
         <footer className='bg-[#f4f5f8] pt-20 pb-8'>
             <div className="max-width">
-            <div className="flex md:flex-row flex-col gap-6 justify-between pb-14 border-b border-gray-300">
+            <div className="flex md:flex-row flex-col gap-6 justify-between pb-10 sm:pb-14 border-b border-gray-300">
                 <div className="flex gap-4 items-center">
-                <FaLocationDot className="text-[35px] text-white bg-blue-600 h-16 w-16 p-3 rounded-full"/>
+                <FaLocationDot className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
-                <h3 className="text-xl font-semibold mb-1">Address</h3>
+                <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Address</h3>
                 <p className="hover:text-blue-600 duration-300">New York, USA</p>
                 </span>
                 </div>
                 <div className="flex gap-4 items-center">
-                <FaPhoneVolume className="text-[35px] text-white bg-blue-600 h-16 w-16 p-3 rounded-full"/>
+                <FaPhoneVolume className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
-                <h3 className="text-xl font-semibold mb-1">Call Me</h3>
+                <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Call Me</h3>
                 <p className="hover:text-blue-600 duration-300">+1 (212) 470-7750</p>
                 </span>
                 </div>
                 <div className="flex gap-4 items-center">
-                <IoMdMailUnread className="text-[35px] text-white bg-blue-600 h-16 w-16 p-3 rounded-full"/>
+                <IoMdMailUnread className="text-2xl sm:text-[35px] text-white bg-blue-600 sm:h-16 h-12 sm:w-16 w-12 p-3 rounded-full"/>
                 <span>
-                <h3 className="text-xl font-semibold mb-1">Send Me Email</h3>
+                <h3 className="sm:text-xl text-lg font-semibold sm:mb-1">Send Me Email</h3>
                 <p className="hover:text-blue-600 duration-300">himuaminofficial@gmail.com</p>
                 </span>
                 </div>
