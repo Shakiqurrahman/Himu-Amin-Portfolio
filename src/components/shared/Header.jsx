@@ -5,6 +5,10 @@ const Header = () => {
   const [color, setColor] = useState(true);
   const [isActive, setIsActive] = useState(false);
 
+  const handleClose = () => {
+    setIsActive(!isActive);
+  }
+
   const changeColor = () => {
     if (window.scrollY <= 0) {
       setColor(true);
@@ -30,11 +34,11 @@ const Header = () => {
           </h1>
         </div>
         <nav>
-          <ul className="md:flex hidden gap-x-10 sm:text-inherit text-black font-mono">
-            <li>Home</li>
-            <li>Blogs</li>
-            <li>About</li>
-            <li>Contact</li>
+          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-blue-600 p-6 w-full text-center text-white gap-y-4 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-mono`}>
+            <li onClick={handleClose}>Home</li>
+            <li onClick={handleClose}>Blogs</li>
+            <li onClick={handleClose}>About</li>
+            <li onClick={handleClose}>Contact</li>
           </ul>
           {/* <CiMenuFries className='md:hidden text-2xl sm:text-inherit text-black'/> */}
           <div
