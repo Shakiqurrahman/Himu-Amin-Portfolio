@@ -1,12 +1,13 @@
 import { useState } from "react";
 import logo from "../../assets/images/profile-logo.jpg";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [color, setColor] = useState(true);
   const [isActive, setIsActive] = useState(false);
 
   const handleClose = () => {
-    setIsActive(!isActive);
+    setIsActive(false);
   }
 
   const changeColor = () => {
@@ -34,11 +35,11 @@ const Header = () => {
           </h1>
         </div>
         <nav>
-          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-blue-600 p-6 w-full text-center text-white gap-y-4 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-mono`}>
-            <li onClick={handleClose}>Home</li>
-            <li onClick={handleClose}>Blogs</li>
-            <li onClick={handleClose}>About</li>
-            <li onClick={handleClose}>Contact</li>
+          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-blue-600 p-6 w-full text-center text-white gap-y-4 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-mono `}>
+            <li onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
+            <li onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
+            <li onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
+            <li onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
           </ul>
           {/* <CiMenuFries className='md:hidden text-2xl sm:text-inherit text-black'/> */}
           <div

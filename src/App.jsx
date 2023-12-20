@@ -1,21 +1,10 @@
-import Banner from "./components/Banner";
-import Blogs from "./components/Blogs";
-import TourBanner from "./components/TourBanner";
-import Footer from "./components/shared/Footer";
-import Header from "./components/shared/Header";
-import SocialMedias from "./components/shared/SocialMedias";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/Routes";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <SocialMedias />
-      <Banner />
-      <Blogs />
-      <div className="my-20 mb-32">
-      <TourBanner />
-      </div>
-      <Footer />
+       <RouterProvider router={router}></RouterProvider>
     </>
   );
 };
