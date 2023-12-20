@@ -36,10 +36,10 @@ const Header = () => {
         </div>
         <nav>
           <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-blue-600 p-6 w-full text-center text-white gap-y-4 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-mono `}>
-            <li onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
-            <li onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
-            <li onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
-            <li onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
+            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
+            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
+            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
+            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
           </ul>
           {/* <CiMenuFries className='md:hidden text-2xl sm:text-inherit text-black'/> */}
           <div
