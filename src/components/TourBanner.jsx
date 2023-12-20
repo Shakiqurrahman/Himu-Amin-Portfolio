@@ -9,7 +9,7 @@ const TourBanner = () => {
             <div className='w-full relative'>
                 <img className='sm:w-[420px] w-full max-w-[420px] sm:h-[550px] h-[450px] rounded-t-[260px]' src={tourBanner} alt="tour banner image " />
                 <div className='bg-[#f2efe8] rounded-top-right sm:px-10 px-8 sm:py-16 py-8 absolute sm:ml-[40%] md:top-[10rem] top-[14rem]'>
-                    <h3 className='text-2xl mb-2'>6+ Tours</h3>
+                    <h3 className='text-2xl mb-2 text-[#001b46]'>6+ Tours</h3>
                     <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas massa porttitor lectus cursus nec. Ut pharetra metus nec lobortis imperdiet. Praesent iaculis lorem pharetra at med fermentum.</p>
                 </div>
             </div>

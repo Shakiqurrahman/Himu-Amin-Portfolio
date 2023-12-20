@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-between mt-6">
-                <p className="text-[12px]">© <a className="text-blue-600" href="">DevIT BD</a> - 2023 | All Rights Reserved</p>
+                <p className="text-[12px]">© <a className="text-blue-600" href="https://shakiqur-rahman.netlify.app/#" target="blank">Shake</a> - 2023 | All Rights Reserved</p>
                 <div className="flex gap-4">
                     <FaFacebookF />
                     <FaInstagram />
