@@ -81,8 +81,12 @@ h1,h2,h3,h4,h5,h6 {
   .b-shape {
     background-image: url('./assets/images/banner-shape.jpg');
     background-position: left  !important;
-   background-repeat: no-repeat !important;
+    background-repeat: no-repeat !important;
   } 
+  
+  .b-shape2 {
+    background-image: url('./assets/images/banner-shape.jpg');
+  }
 
 
 

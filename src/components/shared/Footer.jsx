@@ -1,6 +1,7 @@
 import { FaLocationDot, FaPhoneVolume, FaXTwitter  } from "react-icons/fa6";
 import { IoMdMailUnread } from "react-icons/io";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -36,9 +37,9 @@ const Footer = () => {
             <div className="flex justify-between mt-6">
                 <p className="text-[12px]">© <a className="text-blue-600" href="https://shakiqur-rahman.netlify.app/#" target="blank">Shake</a> - 2023 | All Rights Reserved</p>
                 <div className="flex gap-4">
-                    <FaFacebookF />
-                    <FaInstagram />
-                    <FaXTwitter />
+                    <Link className="hover:text-blue-600 duration-300 px-1" to='https://www.facebook.com/himuaminofficial?mibextid=gik2fB' target="blank"><FaFacebookF /></Link>
+                    <Link className="hover:text-blue-600 duration-300 px-1" to='https://www.instagram.com/himuamin_official?igshid=NGVhN2U2NjQ0Yg%3D%3D' target="blank"><FaInstagram /></Link>
+                    <Link className="hover:text-blue-600 duration-300 px-1" to='https://twitter.com/himuamin_offic' target="blank"><FaXTwitter /></Link>
                 </div>
             </div>
             </div>
