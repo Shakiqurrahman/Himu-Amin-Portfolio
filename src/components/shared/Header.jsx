@@ -27,7 +27,7 @@ const Header = () => {
           : "bg-white text-black duration-300"
       } fixed top-0 z-50 mx-auto w-full`}
     >
-      <div className=" flex m:justify-start justify-between  items-center h-16 max-width">
+      <div className="flex m:justify-start justify-between  items-center h-16 max-width">
         <div className="flex gap-x-3 items-center">
           <img className="rounded-full w-12 h-12" src={logo} alt="logo" />
           <h1 className="sm:text-xl text-sm font-bold sm:text-inherit text-black font-mono">
