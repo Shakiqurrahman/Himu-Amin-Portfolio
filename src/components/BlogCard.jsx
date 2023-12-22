@@ -11,8 +11,8 @@ const BlogCard = ({data}) => {
             </div>
             </div>
             <div className='bg-[#001b46] text-white p-7 mx-4 rounded-2xl absolute -bottom-16 group-hover:bottom-5 duration-300'>
-                <p className='tracking-widest text-[#00f8fe] mb-2'>Blog</p>
-                <h2 className='text-[18px]'>{data.title}</h2>
+                <p className='tracking-widest text-[#00f8fe] mb-2 text-[14px]'>Blog</p>
+                <h2 className='text-[17px] font-semibold uppercase'>{data.title}</h2>
             </div>
             <div>
                 
