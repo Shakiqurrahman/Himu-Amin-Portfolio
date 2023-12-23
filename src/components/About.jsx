@@ -3,8 +3,8 @@ const About = () => {
   return (
     <div className="max-width flex flex-col md:flex-row items-center gap-10">
       <div className='w-full'>
-        <h1 className="mb-2 text-[45px] leading-10 font-bold uppercase">Hi, I'm Himu!</h1>
-        <h1 className="text-[40px] leading-10 font-bold uppercase">An <span className="text-blue-600">Entrepreneur</span></h1>
+        <h1 className="sm:mb-2 text-[32px] sm:text-[45px] leading-10 font-bold uppercase">Hi, I'm Himu!</h1>
+        <h1 className="text-[27px] sm:text-[40px] leading-10 font-bold uppercase">An <span className="text-blue-600">Entrepreneur</span></h1>
         <p className="text-justify mt-6">
           Hello there! I'm Himu Amin, an entrepreneur with a passion for
           exploring the world and creating unforgettable travel experiences. As
