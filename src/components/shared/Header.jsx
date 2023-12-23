@@ -30,19 +30,18 @@ const Header = () => {
       <div className="flex m:justify-start justify-between  items-center h-16 max-width">
         <div className="flex gap-x-3 items-center">
           <img className="rounded-full w-12 h-12" src={logo} alt="logo" />
-          <h1 className="sm:text-lg text-md sm:font-bold font-[900] sm:text-inherit tracking-wider text-black font-poppins">
+          <h1 className="sm:text-lg text-md sm:font-bold font-bold sm:text-inherit tracking-wider text-black font-poppins">
             Himu <span>Amin</span>
           </h1>
         </div>
         <nav>
-          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-blue-600 p-6 w-full text-center text-white gap-y-4 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-poppins text-sm font-semibold`}>
+          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-[#0067f6] p-6 w-full text-center text-white gap-y-5 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-poppins text-md sm:text-sm tracking-wider font-semibold`}>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/gallery'>Gallery</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
           </ul>
-          {/* <CiMenuFries className='md:hidden text-2xl sm:text-inherit text-black'/> */}
           <div
             onClick={() => {
               setIsActive(!isActive);
