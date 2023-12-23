@@ -39,6 +39,7 @@ const Header = () => {
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
+            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/gallery'>Gallery</NavLink></li>
             <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
           </ul>
           {/* <CiMenuFries className='md:hidden text-2xl sm:text-inherit text-black'/> */}
