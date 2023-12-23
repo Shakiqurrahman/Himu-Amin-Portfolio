@@ -17,7 +17,7 @@ const TourBanner = () => {
                 <p className='text-[#0067f6] uppercase mb-2'>Explore The World</p>
                 <h3 className='text-[27px] mb-2 font-semibold text-[#001b46]'>Choose Your Destination</h3>
                 <p>Quisque accumsan facilisiseleifend. Integer ultricies leo eros, non molestie lorem posuere eget. Fusce eget iaculis lorem. Phasellus ante metus, sodales pulvinar lectus in, pellentesque congue tortorUt pharetra metus nec lobortis imperdiet. Praesent iaculis lorem pharetra at med fermentum.Integer ultricies leo eros, non molestie lorem posuere eget. Fusce eget iaculis lorem.</p>
-                <button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'><a href='https://patagoniaexplore.com/destination' target='blank'>See More</a></button>
+                <a href='https://patagoniaexplore.com/destination' target='blank'><button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'>See More</button></a>
             </div>
         </div>
         </div>

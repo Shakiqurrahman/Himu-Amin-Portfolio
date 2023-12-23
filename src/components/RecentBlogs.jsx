@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import { blogData } from '../data/dummyData';
 import BlogCard from './BlogCard';
 
 const RecentBlogs = () => {
+    const recentblogsData = blogData.filter(data => data.isRecent === true);
     return (
         <div className='max-width'>
             <div className='text-center'>
@@ -10,9 +12,10 @@ const RecentBlogs = () => {
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10'>
                 {
-                    blogData.map(data => <BlogCard key={data.id} data={data}></BlogCard>)
+                    recentblogsData.map(data => <BlogCard key={data.id} data={data}></BlogCard>)
                 }
             </div>
+            <Link className='flex justify-center mt-6' to='/blogs'><button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'>See More</button></Link>
         </div>
     );
 };
