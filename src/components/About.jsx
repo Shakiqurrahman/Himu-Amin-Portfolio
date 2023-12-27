@@ -1,8 +1,11 @@
-import aboutImg from '../assets/images/gallery/g-4.jpg'
+import aboutImg from '../assets/images/aboutImg.png'
 const About = () => {
   return (
-    <div className="max-width flex flex-col md:flex-row items-center gap-10">
+    <div className="max-width flex flex-col md:flex-row items-center">
       <div className='w-full'>
+        <img className='w-full' src={aboutImg} alt="" />
+      </div>
+      <div className='w-full md:w-[60vw]'>
         <h1 className="sm:mb-2 text-[32px] sm:text-[45px] leading-10 font-bold uppercase">Hi, I'm Himu!</h1>
         <h1 className="text-[27px] sm:text-[40px] leading-10 font-bold uppercase">An <span className="text-blue-600">Entrepreneur</span></h1>
         <p className="text-justify mt-6">
@@ -21,9 +24,7 @@ const About = () => {
         </p>
         <a ><button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'>Download CV</button></a>
       </div>
-      <div className='w-full'>
-        <img className='rounded-2xl' src={aboutImg} alt="" />
-      </div>
+      
     </div>
   );
 };
