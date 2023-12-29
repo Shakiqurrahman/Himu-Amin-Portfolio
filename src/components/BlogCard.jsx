@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 const BlogCard = ({data}) => {
+    const navigate = useNavigate();
+
     return (
-        <div className='mb-16 relative group'>
+        <div className='mb-16 relative group' onClick={() => navigate(`/blogs/${data?.id}`)}>
             <div className='relative'>
            <div className='overflow-hidden bg-black rounded-2xl'>
            <img className='group-hover:scale-110 duration-500 group-hover:opacity-80 ' src={data?.img} alt="" />

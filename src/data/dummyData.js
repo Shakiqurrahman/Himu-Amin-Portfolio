@@ -6,7 +6,7 @@ import img5 from '../assets/images/blog5.jpg'
 import img6 from '../assets/images/blog6.jpg'
 export const blogData = [
     {
-        id : 1,
+        id : "Practical-Information-For-Travelling-To-Argentina",
         img : img1,
         title : 'Practical Information For Travelling To Argentina',
         date : '07',
@@ -14,7 +14,7 @@ export const blogData = [
         isRecent : true
     },
     {
-        id : 2,
+        id : 'Most-Popular-Places-To-Visit-In-Chile',
         img : img2,
         title : 'Most Popular Places To Visit In Chile',
         date : '15',
@@ -22,7 +22,7 @@ export const blogData = [
         isRecent : true
     },
     {
-        id : 3,
+        id : 'Tips-Towards-a-Flawless-Honeymoon',
         img : img3,
         title : 'Tips Towards a Flawless Honeymoon',
         date : '23',
@@ -30,21 +30,21 @@ export const blogData = [
         isRecent : true
     },
     {
-        id : 4,
+        id : "Practical-Information-For-Travelling-To-Argentina",
         img : img4,
         title : 'Practical Information For Travelling To Argentina',
         date : '07',
         month : 'Aug',
     },
     {
-        id : 5,
+        id : 'Most-Popular-Places-To-Visit-In-Chile',
         img : img5,
         title : 'Most Popular Places To Visit In Chile',
         date : '25',
         month : 'Jan',
     },
     {
-        id : 6,
+        id : 'Tips-Towards-a-Flawless-Honeymoon',
         img : img6,
         title : 'Tips Towards a Flawless Honeymoon',
         date : '20',
