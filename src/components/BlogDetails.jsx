@@ -7,7 +7,7 @@ const BlogDetails = ({ details }) => {
     <div className="max-width my-20">
       <div className="flex flex-col md:flex-row gap-10">
         <div className="md:w-2/3">
-          <img src={img} alt="" />
+          <img src={details.details.img} alt="" />
           <h1 className="text-[25px] font-semibold uppercase my-5 text-[#001b46]">
             {details.title}
           </h1>

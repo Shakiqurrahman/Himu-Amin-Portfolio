@@ -22,7 +22,7 @@ const About = () => {
           the way, I discovered the power of travel to transform and enrich our
           lives.
         </p>
-        <a ><button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'>Download CV</button></a>
+        {/* <a ><button className='px-6 py-2 border border-black rounded-md font-semibold mt-6 hover:bg-[#0067f6] hover:text-white duration-300'>Download CV</button></a> */}
       </div>
     </div>
   );

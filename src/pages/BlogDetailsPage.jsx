@@ -13,7 +13,7 @@ const BlogDetailsPage = () => {
             <div className="">
             <p className="text-blue-600 tracking-[5px] uppercase text-[13px] mb-1">Blog Details</p>
             <h1 className="text-white sm:text-[40px] text-lg font-bold  leading-snug mb-4 w-2/3 uppercase">{details.title}</h1>
-            <p className="text-white flex items-center gap-2"><IoCalendar></IoCalendar> August 2, 2022</p>
+            <p className="text-white flex items-center gap-2"><IoCalendar></IoCalendar>{details.fullDate}</p>
             </div>
             </div>
             </div>
