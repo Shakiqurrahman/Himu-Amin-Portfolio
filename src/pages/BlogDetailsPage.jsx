@@ -10,9 +10,9 @@ const BlogDetailsPage = () => {
     <section>
             <div className="b-shape">
             <div className="sm:pt-[160px] pt-[160px] sm:pb-[107px] pb-[77px] max-width">
-            <div className="">
+            <div>
             <p className="text-blue-600 tracking-[5px] uppercase text-[13px] mb-1">Blog Details</p>
-            <h1 className="text-white sm:text-[40px] text-lg font-bold  leading-snug mb-4 w-2/3 uppercase">{details.title}</h1>
+            <h1 className="text-white sm:text-[40px] text-lg font-bold  leading-snug mb-4 sm:w-2/3 uppercase">{details.title}</h1>
             <p className="text-white flex items-center gap-2"><IoCalendar></IoCalendar>{details.fullDate}</p>
             </div>
             </div>
