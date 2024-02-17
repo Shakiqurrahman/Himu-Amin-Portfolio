@@ -20,7 +20,25 @@ export const blogData = [
         fullDate : "23 March 2023",
         isRecent : true,
         details : {
-            img : detail1
+            img : detail1,
+            recentblogs : [
+                {
+                    img : detail2,
+                    title : 'Most Popular Places To Visit In Iceland',
+                    link : 'Iceland'
+                },
+                {
+                    img : detail3,
+                    title : "Unraveling Egypt's Mysteries from the Pyramids to the Pharaohs",
+                    link : 'Egypt'
+                },
+                {
+                    img : detail4,
+                    title : 'Greece : Greeking out over the view of Mykonos',
+                    link : "Greece"
+                },
+                
+            ]
 
         }
     },
@@ -33,8 +51,25 @@ export const blogData = [
         fullDate : "29 January 2023",
         isRecent : true,
         details : {
-            img : detail2
-
+            img : detail2,
+            recentblogs : [
+                {
+                    img : detail1,
+                    title : "London : A Journey Through the Heart of the UK's Capital",
+                    link : "London"
+                },
+                {
+                    img : detail3,
+                    title : "Unraveling Egypt's Mysteries from the Pyramids to the Pharaohs",
+                    link : 'Egypt'
+                },
+                {
+                    img : detail4,
+                    title : 'Greece : Greeking out over the view of Mykonos',
+                    link : "Greece"
+                },
+                
+            ]
         }
     },
     {
@@ -46,8 +81,25 @@ export const blogData = [
         fullDate : "08 October 2022",
         isRecent : true,
         details : {
-            img : detail3
-
+            img : detail3,
+            recentblogs : [
+                {
+                    img : detail1,
+                    title : "London : A Journey Through the Heart of the UK's Capital",
+                    link : "London"
+                },
+                {
+                    img : detail2,
+                    title : 'Most Popular Places To Visit In Iceland',
+                    link : 'Iceland'
+                },
+                {
+                    img : detail4,
+                    title : 'Greece : Greeking out over the view of Mykonos',
+                    link : "Greece"
+                },
+                
+            ]
         }
     },
     {
@@ -58,7 +110,25 @@ export const blogData = [
         fullDate : "23 March 2023",
         month : 'Aug',
         details : {
-            img : detail4
+            img : detail4,
+          recentblogs : [
+                {
+                    img : detail1,
+                    title : "London : A Journey Through the Heart of the UK's Capital",
+                    link : "London"
+                },
+                {
+                    img : detail2,
+                    title : "Most Popular Places To Visit In Iceland",
+                    link : 'Iceland'
+                },
+                {
+                    img : detail3,
+                    title : "Unraveling Egypt's Mysteries from the Pyramids to the Pharaohs",
+                    link : 'Egypt'
+                },
+                
+            ]
         }
     },
     {
@@ -69,8 +139,25 @@ export const blogData = [
         fullDate : "3 November 2022",
         month : 'Nov',
         details : {
-            img : detail5
-
+            img : detail5,
+            recentblogs : [
+                {
+                    img : detail1,
+                    title : "London : A Journey Through the Heart of the UK's Capital",
+                    link : "London"
+                },
+                {
+                    img : detail2,
+                    title : "Most Popular Places To Visit In Iceland",
+                    link : 'Iceland'
+                },
+                {
+                    img : detail3,
+                    title : "Unraveling Egypt's Mysteries from the Pyramids to the Pharaohs",
+                    link : 'Egypt'
+                },
+                
+            ]
         }
     },
     {
@@ -81,8 +168,25 @@ export const blogData = [
         fullDate : "7 October 2021",
         month : 'Oct',
         details : {
-            img : detail6
-
+            img : detail6,
+            recentblogs : [
+                {
+                    img : detail1,
+                    title : "London : A Journey Through the Heart of the UK's Capital",
+                    link : "London"
+                },
+                {
+                    img : detail2,
+                    title : "Most Popular Places To Visit In Iceland",
+                    link : 'Iceland'
+                },
+                {
+                    img : detail3,
+                    title : "Unraveling Egypt's Mysteries from the Pyramids to the Pharaohs",
+                    link : 'Egypt'
+                },
+                
+            ]
         }
     },
    
