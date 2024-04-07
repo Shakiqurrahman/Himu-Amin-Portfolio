@@ -1,6 +1,6 @@
 import { useState } from "react";
-import logo from "../../assets/images/logo.jpg";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/logo.jpg";
 
 const Header = () => {
   const [color, setColor] = useState(true);
@@ -8,7 +8,7 @@ const Header = () => {
 
   const handleClose = () => {
     setIsActive(false);
-  }
+  };
 
   const changeColor = () => {
     if (window.scrollY <= 0) {
@@ -35,12 +35,53 @@ const Header = () => {
           </h1>
         </div>
         <nav>
-          <ul className={`${isActive ? 'flex flex-col absolute top-16 right-0 bg-[#0067f6] p-6 w-full text-center text-white gap-y-5 duration-300' : 'hidden' } md:flex gap-x-10 sm:text-inherit text-black font-poppins text-md sm:text-sm tracking-wider font-semibold`}>
-            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/'>Home</NavLink></li>
-            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/blogs'>Blogs</NavLink></li>
-            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/about'>About</NavLink></li>
-            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/gallery'>Gallery</NavLink></li>
-            <li className={`${color ? 'hover:text-black': 'hover:text-[#0067f6]'} ${isActive ? 'hover:text-black' : ''}`} onClick={handleClose}><NavLink to='/contact'>Contact</NavLink></li>
+          <ul
+            className={`${
+              isActive
+                ? "flex flex-col absolute top-16 right-0 bg-[#0067f6] p-6 w-full text-center text-white gap-y-5 duration-300"
+                : "hidden"
+            } md:flex gap-x-10 sm:text-inherit text-black font-poppins text-md sm:text-sm tracking-wider font-semibold`}
+          >
+            <li
+              className={`${
+                color ? "hover:text-black" : "hover:text-[#0067f6]"
+              } ${isActive ? "hover:text-black" : ""}`}
+              onClick={handleClose}
+            >
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li
+              className={`${
+                color ? "hover:text-black" : "hover:text-[#0067f6]"
+              } ${isActive ? "hover:text-black" : ""}`}
+              onClick={handleClose}
+            >
+              <NavLink to="/blogs">Blogs</NavLink>
+            </li>
+            <li
+              className={`${
+                color ? "hover:text-black" : "hover:text-[#0067f6]"
+              } ${isActive ? "hover:text-black" : ""}`}
+              onClick={handleClose}
+            >
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li
+              className={`${
+                color ? "hover:text-black" : "hover:text-[#0067f6]"
+              } ${isActive ? "hover:text-black" : ""}`}
+              onClick={handleClose}
+            >
+              <NavLink to="/gallery">Gallery</NavLink>
+            </li>
+            <li
+              className={`${
+                color ? "hover:text-black" : "hover:text-[#0067f6]"
+              } ${isActive ? "hover:text-black" : ""}`}
+              onClick={handleClose}
+            >
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
           </ul>
           <div
             onClick={() => {

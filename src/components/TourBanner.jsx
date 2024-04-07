@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
 import tourBanner from '../assets/images/tourImg.jpg'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const TourBanner = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return (
         <div>
             <div className='shape sm:block hidden'></div>
-            <div className='flex md:flex-row flex-col justify-center max-width gap-x-16'>
+            <div data-aos='fade-up' data-aos-duration="1200" className='flex md:flex-row flex-col justify-center max-width gap-x-16'>
             <div className='w-full relative'>
                 <img className='sm:w-[420px] w-full max-w-[420px] sm:h-[550px] h-[450px] rounded-t-[260px]' src={tourBanner} alt="tour banner image " />
                 <div className='bg-[#f2efe8] rounded-top-right sm:px-10 px-8 sm:py-16 py-8 absolute sm:ml-[40%] md:top-[10rem] top-[14rem]'>
